@@ -1,10 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 public class shooting : MonoBehaviour
 {
     //variables 
-    public GameObject bullet;
-    public Transform firepoint;
-    public float bulletforce = 10f;
-    public GameObject shotgun;
+    [SerializeField] private GameObject bullet;
+    [SerializeField] private Transform firepoint;
+    [SerializeField] private float bulletforce = 10f;
+    [SerializeField] private GameObject shotgun;
 
     void Update()
     {
